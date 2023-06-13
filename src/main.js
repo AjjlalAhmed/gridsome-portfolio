@@ -4,7 +4,7 @@
 import DefaultLayout from "~/layouts/Default.vue";
 import "~/assets/app.css";
 import "~/assets/main.css";
-import Scrollbar from 'smooth-scrollbar';
+
 
 
 
@@ -16,5 +16,4 @@ export default function(Vue, { router, head, isClient }) {
   });
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
-  Scrollbar.init(document.querySelector('#app'));
 }
