@@ -2,7 +2,7 @@
   <header>
     <div class="h-4 w-full bg-primary"></div>
 
-    <nav class="mt-10 max-w-7xl mx-auto p-4 flex item-center justify-between gap-5">
+    <nav class="mt-10 max-w-7xl mx-auto p-4 flex flex-wrap  items-center justify-center sm:justify-between gap-5">
       <h1 class="logo text-2xl text-white font-bold">
         ajjlal <span class="text-primary">ahmed.</span>
       </h1>

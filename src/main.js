@@ -2,11 +2,14 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
 import DefaultLayout from "~/layouts/Default.vue";
+
+import AOS from "aos"
+
 import "~/assets/app.css";
 import "~/assets/main.css";
-
-
-
+import 'aos/dist/aos.css'
+// Default theme
+import "@splidejs/splide/dist/css/splide.min.css";
 
 export default function(Vue, { router, head, isClient }) {
   head.link.push({
@@ -16,4 +19,7 @@ export default function(Vue, { router, head, isClient }) {
   });
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
+
+ 
+  AOS.init();
 }

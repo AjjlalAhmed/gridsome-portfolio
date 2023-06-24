@@ -1,6 +1,6 @@
 <template>
-  <div id="Projects" class="container max-w-7xl mx-auto mt-36 p-4">
-    <div>
+  <div id="projects" class="container max-w-7xl mx-auto mt-36 p-4">
+    <div data-aos="fade-right">
       <h3 class="text-primary uppercase text-lg">Feature Projects</h3>
       <h1 class="text-white text-4xl font-bold mt-5">
         Stuff I’ve Worked On 📁
@@ -8,13 +8,20 @@
     </div>
 
     <div class="mt-14 flex flex-col gap-8">
-      <div v-for="item in project" :key="item.id">
+      <div data-aos="fade-up" v-for="item in project" :key="item.id">
         <h1 class="text-white text-xl font-semibold capitalize">
           {{ item.title }}<span class="text-primary">.</span>
         </h1>
         <p class="text-gray-300 mt-2">{{ item.desc }}</p>
         <ul class="flex gap-5 flex-wrap items-center py-2">
-          <li class="uppercase border border-primary rounded-sm p-2 text-white" v-for="stack in item.stack" :key="stack">{{stack}}</li>
+          <li
+            class="uppercase border border-primary rounded-sm p-2 text-white"
+            v-for="stack in item.stack"
+            :key="stack"
+            
+          >
+            {{ stack }}
+          </li>
         </ul>
         <span class="bg-gray-700 h-0.5 mt-2 w-full block"></span>
       </div>
