@@ -8,7 +8,7 @@
       </h1>
       <ul class="flex gap-8">
         <li><g-link to="~/assets/ajjlal.pdf" download="Ajjlal_Ahmed_Resume" class="text-white font-medium capitalize">resume</g-link></li>
-        <li><a href="#Contact" class="text-white font-medium  capitalize">contact</a></li>
+        <li><a href="#contact" class="text-white font-medium  capitalize">contact</a></li>
       </ul>
     </nav>
   </header>

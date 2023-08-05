@@ -5,7 +5,7 @@
       <Projects />
       <Testimonials />
       <MoreAboueMe />
-      <Contact id="Contact" />
+      <Contact  />
     </div>
   </Layout>
 </template>

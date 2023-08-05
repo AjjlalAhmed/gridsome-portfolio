@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="contact">
     <div class="container max-w-7xl mx-auto pt-36 pb-10 p-4">
       <div data-aos="fade-right">
         <h3 class="text-primary uppercase text-lg">
