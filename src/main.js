@@ -3,7 +3,7 @@
 
 import DefaultLayout from "~/layouts/Default.vue";
 
-import AOS from "aos"
+
 
 import "~/assets/app.css";
 import "~/assets/main.css";
@@ -21,5 +21,5 @@ export default function(Vue, { router, head, isClient }) {
   Vue.component("Layout", DefaultLayout);
 
  
-  AOS.init();
+ 
 }

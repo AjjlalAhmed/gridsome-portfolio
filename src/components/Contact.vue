@@ -14,7 +14,7 @@
         <h3 class="text-gray-500 uppercase text-md">
           Email —
         </h3>
-        <h1 class="text-white text-2xl font-semibold mt-5">
+        <h1 class="text-white text-xl sm:text-2xl font-semibold mt-5">
           ajjlalahmed48@gmail.com
         </h1>
       </div>

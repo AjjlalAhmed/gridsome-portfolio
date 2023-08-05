@@ -1,11 +1,11 @@
 <template>
   <Layout>
-    <div id="scroll-bar">
+    <div class="sm:px-10" >
       <Landing />
       <Projects />
       <Testimonials />
       <MoreAboueMe />
-      <Contact />
+      <Contact id="Contact" />
     </div>
   </Layout>
 </template>

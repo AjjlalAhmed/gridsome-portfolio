@@ -6,6 +6,7 @@
 </template>
 
 <script>
+import AOS from "aos"
 import Nav from "../components/Nav.vue";
 export default {
   components: { Nav },
@@ -13,7 +14,9 @@ export default {
     return {};
   },
 
-  mounted() {},
+  mounted() {
+     AOS.init();
+  },
 
   methods: {},
 };
