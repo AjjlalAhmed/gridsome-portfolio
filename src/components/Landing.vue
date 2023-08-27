@@ -2,12 +2,13 @@
   <div class="container max-w-7xl mx-auto mt-36 p-4 ">
     <div class=" max-w-3xl">
       <h1
+        id="title"
         class=" text-4xl font-Playfair  font-bold sm:text-5xl lg:text-6xl text-text "
       >
         Web development virtuoso, turning
         <span class="text-primary ">ideas into digital</span> masterpieces.
       </h1>
-      <div class="mt-24">
+      <div id="action-btn" class="mt-24">
         <a
           href="/#projects"
           class="uppercase tracking-wide text-lg text-white relative after:transition-all after:block after:w-[50%] after:h-0.5 after:bg-primary after:absolute after:-bottom-2 after:hover:w-full"
@@ -18,7 +19,7 @@
     </div>
 
     <div class="flex items-end justify-end mt-36">
-      <ul class="flex items-center gap-5">
+      <ul id="socials" class="flex items-center gap-5">
         <li>
           <a target="_blank" href="http://github.com/AjjlalAhmed"
             ><g-image src="~/assets/icons/github.svg" width="24" height="24"
@@ -47,22 +48,7 @@
   </div>
 </template>
 
-<script>
-
-export default {
-  name: "Landing",
-
-  data() {
-    return {};
-  },
-
-  mounted() {
-    
-  },
-
-  methods: {},
-};
-</script>
+<script></script>
 
 <style scoped>
 .text-animation {

@@ -3,13 +3,13 @@
 
 import DefaultLayout from "~/layouts/Default.vue";
 
-
-
 import "~/assets/app.css";
 import "~/assets/main.css";
-import 'aos/dist/aos.css'
+import "aos/dist/aos.css";
 // Default theme
 import "@splidejs/splide/dist/css/splide.min.css";
+
+import "./assets/js/gsap";
 
 export default function(Vue, { router, head, isClient }) {
   head.link.push({
@@ -19,7 +19,4 @@ export default function(Vue, { router, head, isClient }) {
   });
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
-
- 
- 
 }

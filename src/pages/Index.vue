@@ -1,11 +1,11 @@
 <template>
   <Layout>
-    <div class="sm:px-10" >
+    <div class="sm:px-10 overflow-hidden">
       <Landing />
       <Projects />
       <Testimonials />
       <MoreAboueMe />
-      <Contact  />
+      <Contact />
     </div>
   </Layout>
 </template>
